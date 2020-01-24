@@ -1,16 +1,19 @@
 # Api-endpoint
 api endpoint project
 
-
-As an API
-I need to be able to query what dogs where born in between a given date
-So that I can validate them before been accepted on to a health study
-API end point
-Sample extract attached 
-Input parameter 
-Breed Number
-Start Date Time 
-End Date Time
-Output
-Dog Registered Number
-Dog Date of Birth
+As a DTP and procurement officer 
+I want to extract BRS data from CRM by defining the breed group, activity and edition 
+So I can use the data for the publishing the BRS 
+Create entity for generating the the different breed group or activity reports for BRS
+New entity should include:
+Created date
+Year 
+Quarter 
+breed group ||
+activity 
+User 
+Attachment 
+Status - successful, failed 
+On saving of the record the end point to generate the report will be called 
+No download of report. Report will be stored in new BRS Report entity as attachment 
+ 
